@@ -1,6 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### WELCOME TO MY PORTOFOLIO WEB ###
+## Preview Portofolio Web
+
+<img width="1919" height="957" alt="image" src="https://github.com/user-attachments/assets/93092782-d436-4443-a511-b3214d4570b6" />
+
+
+You can see more the web above on this 
+[my Vercel](https://profile-website-one-ecru.vercel.app/).
+
+
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 First, run the development server:
 
