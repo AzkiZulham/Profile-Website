@@ -22,7 +22,7 @@ const testimonials = [
     name: "Adam Kalalo - Founder",
     position: "Photographer @ Adam Kalalo",
     image: "/image/Adam.png",
-    avatar: "/image/adam.png",
+    avatar: "/image/Adam.png",
     rating: 5,
     projectType: "Portfolio Website"
   },
