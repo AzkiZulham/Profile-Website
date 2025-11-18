@@ -27,9 +27,6 @@ export default function Navbar() {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "Experience", href: "#experience" },
-    { name: "Testimonials", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -45,7 +42,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center gap-3">
             <h1 className="text-2xl font-bold bg-gray-800 bg-clip-text text-transparent">
-              PROFILE WEBSITE
+              AZKI PROFILE
             </h1>
           </div>
 

@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Button from "@mui/material/Button";
 
 interface SkillItem {
   title: string;
@@ -61,7 +62,7 @@ const MySkills: React.FC = () => {
   };
 
   return (
-    <section className="w-full bg-white py-20 lg:py-32" id="skills">
+    <section className="w-full bg-white py-20 lg:py-25" id="skills">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
@@ -167,6 +168,24 @@ const MySkills: React.FC = () => {
               <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-gray-900/10 transition-all duration-300"></div>
             </motion.div>
           ))}
+        </motion.div>
+
+        {/* Bottom CTA */}
+        <motion.div
+          variants={itemVariants}
+          className="text-center mt-20 lg:mt-20"
+        >
+          <p className="text-2xl lg:text-3xl text-gray-600 font-light mb-8">
+            Ready to bring your digital ideas to life?
+          </p>
+          <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-block bg-gray-900 text-white px-12 py-4 rounded-lg text-lg font-bold hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl"
+          >
+            LET&#39;S TALK
+          </motion.a>
         </motion.div>
       </div>
     </section>

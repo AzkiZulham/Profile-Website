@@ -41,7 +41,7 @@ export default function AboutMe() {
   ];
 
   return (
-    <section id="about" className="w-full min-h-screen bg-white py-20 lg:py-32">
+    <section id="about" className="w-full min-h-min bg-white py-20 lg:py-25">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -158,24 +158,6 @@ export default function AboutMe() {
               </p>
             </motion.div>
           </motion.div>
-        </motion.div>
-
-        {/* Bottom CTA */}
-        <motion.div
-          variants={itemVariants}
-          className="text-center mt-20 lg:mt-20"
-        >
-          <p className="text-2xl lg:text-3xl text-gray-600 font-light mb-8">
-            Ready to bring your digital ideas to life?
-          </p>
-          <motion.a
-            href="#contact"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-block bg-gray-900 text-white px-12 py-4 rounded-lg text-lg font-bold hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl"
-          >
-            LET&#39;S TALK
-          </motion.a>
         </motion.div>
       </div>
     </section>
